@@ -8,14 +8,14 @@ Ce projet implémente une API de gestion de compte bancaire en architecture hexa
 - 📊 Consultation du solde
 - 🔄 Historique des transactions
 
-## Architecture
+## 🏛️ Architecture
 Le projet suit une **architecture hexagonale**:
 - **domain**: contient les logiques métier principale (`Account, Transaction`).
 - **service**: contient les cas d'utilisation et l'orchestration des services (`AccountService`).
 - **controller**: gère l'exposition des API (`AccountController`).
 
-## Gestion des logs
-- Les logs sont enregistré dans le dossier 'logs' à la racine
+## 📝 Gestion des logs
+- Les logs sont enregistrés dans le dossier 'logs' à la racine
 
 ## 🚀 Installation et Exécution
 - Installer Java 17
